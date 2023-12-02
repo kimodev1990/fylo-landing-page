@@ -1,0 +1,705 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%
+}
+
+.header {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: clamp(1rem, -0.455rem + 23.273vw, 5rem);
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    width: clamp(1.5rem, 0.591rem + 14.545vw, 4rem);
+}
+
+.logo-header>img {
+    width: 100%;
+}
+
+.header-options {
+    display: flex;
+    align-items: center;
+    gap: clamp(0.2rem, -0.091rem + 4.655vw, 1rem);
+}
+
+.header-options>h3 {
+    font-size: clamp(0.2rem, -0.018rem + 3.491vw, 0.8rem);
+}
+
+.first-group {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.left-first-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-first-group>h1 {
+    font-size: clamp(0.5rem, 0.136rem + 5.818vw, 1.5rem);
+}
+
+.left-first-group>h3 {
+    font-size: clamp(0.2rem, -0.055rem + 4.073vw, 0.9rem);
+}
+
+.email-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(0.2rem, -0.018rem + 3.491vw, 0.8rem);
+    width: 80%;
+    margin-top: clamp(0.4rem, 0.091rem + 4.945vw, 1.25rem);
+    margin-bottom: clamp(1.2rem, 0.273rem + 14.836vw, 3.75rem);
+}
+
+.email-first h4 {
+    font-size: clamp(0.2rem, 0.055rem + 2.327vw, 0.6rem);
+}
+
+.entering-email-1 {
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(210, 208, 208);
+    width: 100%;
+    text-align: left;
+}
+
+.get-started-1 {
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+
+.right-first-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.right-first-group>img {
+    width: 100%;
+}
+
+.bg-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bg-1>img {
+    width: 100%;
+}
+
+.second-group {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(240, 75%, 98%);
+    gap: clamp(1.3rem, 0.636rem + 10.618vw, 3.125rem);
+    padding: 0 clamp(0.6rem, 0.136rem + 7.418vw, 1.875rem);
+}
+
+.left-second-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-second-group>h1 {
+    font-size: clamp(0.2rem, -0.091rem + 4.655vw, 1rem);
+}
+
+.left-second-group>h3 {
+    font-size: clamp(0.2rem, -0.055rem + 4.073vw, 0.9rem);
+}
+
+.underline {
+    color: hsl(170, 45%, 43%);
+    text-decoration: underline;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(0.1rem, -0.045rem + 2.327vw, 0.5rem);
+    margin-bottom: clamp(0.4rem, 0.091rem + 4.945vw, 1.25rem);
+}
+
+.sub-section>h3 {
+    font-size: clamp(0.2rem, -0.091rem + 4.655vw, 1rem);
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    width: clamp(0.4rem, -0.136rem + 8.582vw, 1.875rem);
+}
+
+.arrow>img {
+    width: 100%;
+    display: flex;
+}
+
+.right-second-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.right-second-group>img {
+    width: 100%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px -5px black;
+    width: 90%;
+    padding: clamp(0.5rem, 0.113rem + 6.185vw, 1.563rem) clamp(0.7rem, 0.273rem + 6.836vw, 1.875rem);
+    text-align: left;
+    margin-bottom: clamp(1.8rem, 0.864rem + 14.982vw, 4.375rem)
+}
+
+.profile-info>h4 {
+    font-size: clamp(0.2rem, 0.018rem + 2.909vw, 0.7rem);
+}
+
+.quotes {
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+
+.quotes>img {
+    width: 100%;
+}
+
+.profile-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: clamp(0.1rem, -0.045rem + 2.327vw, 0.5rem);
+    text-align: left;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+.profile-picture>img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name-info>h5 {
+    margin: 0;
+    font-size: clamp(0.2rem, -0.029rem + 3.665vw, 0.83rem);
+}
+
+.third-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(238, 22%, 44%);
+    width: 100%;
+    text-align: center;
+}
+
+.left-third-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    color: white;
+    margin-top: clamp(0.4rem, -0.136rem + 8.582vw, 1.875rem);
+}
+
+.left-third-group>h1 {
+    font-size: clamp(0.2rem, -0.091rem + 4.655vw, 1rem);
+}
+
+.left-third-group>h4 {
+    font-size: clamp(0.2rem, -0.055rem + 4.073vw, 0.9rem);
+}
+
+.right-third-group {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+    margin-bottom: clamp(1.2rem, 0.5rem + 11.2vw, 3.125rem);
+}
+
+.entering-email-2 {
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(210, 208, 208);
+    width: 100%;
+    text-align: left;
+}
+
+.entering-email-2>h4 {
+    font-size: clamp(0.2rem, -0.055rem + 4.073vw, 0.9rem);
+    margin: clamp(0.2rem, -0.023rem + 3.567vw, 0.813rem) 0;
+}
+
+.get-started-free {
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+
+.get-started-free>h4 {
+    font-size: clamp(0.2rem, -0.055rem + 4.073vw, 0.9rem);
+    margin: clamp(0.2rem, -0.023rem + 3.567vw, 0.813rem) 0;
+}
+
+.fourth-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: hsl(243, 87%, 12%);
+    width: 100%;
+    padding-top: clamp(1rem, 0.455rem + 8.727vw, 2.5rem);
+}
+
+.first-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: clamp(1rem, 0.455rem + 8.727vw, 2.5rem);
+}
+
+.logo-first-info {
+    display: flex;
+    align-items: center;
+    width: clamp(2rem, -1.105rem + 49.676vw, 10.538rem);
+}
+
+.logo-first-info>img {
+    width: 100%;
+}
+
+.first-info h5 {
+    font-size: clamp(0.2rem, -0.029rem + 3.665vw, 0.83rem);
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(0.2rem, -0.068rem + 4.294vw, 0.938rem);
+}
+
+.phone-icon {
+    display: flex;
+    align-items: center;
+    width: 8%;
+}
+
+.phone-icon>img {
+    width: 100%;
+}
+
+.gmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(0.2rem, -0.068rem + 4.294vw, 0.938rem);
+}
+
+.gmail-icon {
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+
+.gmail-icon>img {
+    width: 100%;
+}
+
+.gmail h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.second-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding-left: clamp(1rem, 0.455rem + 8.727vw, 2.5rem);
+    padding-top: clamp(0.4rem, 0.092rem + 4.928vw, 1.25rem);
+    padding-bottom: clamp(0.4rem, 0.092rem + 4.928vw, 1.25rem);
+}
+
+.second-info>h5 {
+    margin-top: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+    margin-bottom: 0;
+    font-size: clamp(0.2rem, -0.029rem + 3.665vw, 0.83rem);
+}
+
+.third-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding-left: clamp(1rem, 0.455rem + 8.727vw, 2.5rem);
+}
+
+.third-info>h5 {
+    margin-top: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+    margin-bottom: 0;
+    font-size: clamp(0.2rem, -0.029rem + 3.665vw, 0.83rem);
+}
+
+.social-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    align-self: center;
+    gap: clamp(0.2rem, 0.046rem + 2.464vw, 0.625rem);
+    margin: clamp(0.7rem, 0.274rem + 6.812vw, 1.875rem) 0;
+}
+
+.facebook-icon {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.facebook-icon>img {
+    width: 100%;
+}
+
+.twitter-icon {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.twitter-icon>img {
+    width: 100%;
+}
+
+.intsagram-icon {
+    display: flex;
+    align-items: center;
+    width: 26%;
+}
+
+.intsagram-icon>img {
+    width: 100%;
+}
+
+@media(min-width:376px) {
+
+    .header {
+        margin-bottom: clamp(1.5rem, 0.484rem + 4.323vw, 4.375rem);
+    }
+
+    .logo-header {
+        width: clamp(4rem, 1.747rem + 9.586vw, 10.375rem);
+    }
+
+    .header-options {
+        display: flex;
+        align-items: center;
+        gap: clamp(1rem, 0.249rem + 3.195vw, 3.125rem);
+    }
+
+    .header-options>h3 {
+        font-size: clamp(0.3rem, -0.007rem + 1.308vw, 1.17rem);
+    }
+
+    .first-group {
+        flex-direction: row;
+        margin-bottom: clamp(3rem, 0.305rem + 11.466vw, 10.625rem);
+    }
+
+    .left-first-group {
+        width: 50%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .left-first-group>h1 {
+        font-size: clamp(0.7rem, 0.241rem + 1.955vw, 2rem);
+    }
+
+    .left-first-group>h3 {
+        font-size: clamp(0.3rem, -0.053rem + 1.504vw, 1.3rem);
+    }
+
+    .email-first {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: clamp(0.2rem, -0.061rem + 1.11vw, 0.938rem);
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .email-first h4 {
+        font-size: clamp(0.3rem, 0.053rem + 1.053vw, 1rem);
+    }
+
+    .entering-email-1 {
+        width: clamp(6rem, 0.39rem + 23.872vw, 21.875rem);
+    }
+
+    .get-started-1 {
+        width: clamp(3rem, -0.357rem + 14.286vw, 12.5rem);
+    }
+
+    .right-first-group {
+        width: 50%;
+    }
+
+    .second-group {
+        flex-direction: row;
+        width: 100%;
+        padding: 0 clamp(1.5rem, 0.263rem + 5.263vw, 5rem);
+    }
+
+    .left-second-group {
+        width: 50%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .left-second-group>h1 {
+        font-size: clamp(0.6rem, 0.105rem + 2.105vw, 2rem);
+    }
+
+    .left-second-group>h3 {
+        font-size: clamp(0.3rem, -0.007rem + 1.308vw, 1.17rem)
+    }
+
+    .sub-section {
+        gap: clamp(0.1rem, 0.025rem + 0.32vw, 0.313rem);
+        margin-bottom: clamp(0.4rem, -0.011rem + 1.749vw, 1.563rem);
+    }
+
+    .sub-section>h3 {
+        font-size: clamp(0.3rem, -0.007rem + 1.308vw, 1.17rem)
+    }
+
+    .arrow {
+        margin-top: 0;
+        width: clamp(0.3rem, 0.053rem + 1.053vw, 1rem);
+    }
+
+    .right-second-group {
+        width: 50%;
+    }
+
+    .profile-info {
+        width: 60%;
+        padding: clamp(0.6rem, 0.149rem + 1.917vw, 1.875rem);
+        margin-bottom: clamp(0.6rem, 0.149rem + 1.917vw, 1.875rem);
+    }
+
+    .profile-info>h4 {
+        font-size: clamp(0.2rem, -0.083rem + 1.203vw, 1rem);
+    }
+
+    .quotes {
+        width: clamp(0.2rem, -0.017rem + 0.922vw, 0.813rem);
+    }
+
+    .profile-logo {
+        gap: clamp(0.2rem, 0.05rem + 0.639vw, 0.625rem);
+    }
+
+    .name-info>h5 {
+        font-size: clamp(0.2rem, -0.023rem + 0.947vw, 0.83rem);
+    }
+
+    .third-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: hsl(238, 22%, 44%);
+        width: 100%;
+        gap: clamp(3rem, 0.747rem + 9.586vw, 9.375rem);
+        padding: clamp(1rem, 0.028rem + 4.135vw, 3.75rem) 0;
+    }
+
+    .left-third-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 50%;
+        padding: 0 clamp(1.8rem, -1.098rem + 12.331vw, 10rem) 0 clamp(1.5rem, 0.263rem + 5.263vw, 5rem);
+        color: white;
+        text-align: left;
+        margin-top: auto;
+    }
+
+    .left-third-group>h1 {
+        font-size: clamp(0.6rem, 0.105rem + 2.105vw, 2rem);
+    }
+
+    .left-third-group>h4 {
+        font-size: clamp(0.2rem, -0.083rem + 1.203vw, 1rem);
+    }
+
+    .right-third-group {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: clamp(0.3rem, 0.075rem + 0.959vw, 0.938rem);
+        margin-bottom: 0;
+    }
+
+    .entering-email-2 {
+        background-color: white;
+        border-radius: 5px;
+        color: rgb(210, 208, 208);
+        width: clamp(8rem, -0.216rem + 34.962vw, 31.25rem);
+        text-align: left;
+    }
+
+    .entering-email-2>h4 {
+        font-size: clamp(0.2rem, -0.083rem + 1.203vw, 1rem);
+        margin: clamp(0.3rem, -0.064rem + 1.549vw, 1.33rem) 0;
+    }
+
+    .get-started-free {
+        background-color: hsl(224, 93%, 58%);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        width: clamp(4rem, 0.996rem + 12.782vw, 12.5rem);
+    }
+
+    .get-started-free>h4 {
+        font-size: clamp(0.2rem, -0.083rem + 1.203vw, 1rem);
+        margin: clamp(0.3rem, -0.064rem + 1.549vw, 1.33rem) 0;
+    }
+
+    .fourth-group {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: clamp(1.5rem, 0.484rem + 4.323vw, 4.375rem);
+        padding-bottom: clamp(2rem, 0.498rem + 6.391vw, 6.25rem);
+    }
+
+    .first-info {
+        padding-left: 0;
+    }
+
+    .logo-first-info {
+        width: clamp(3rem, 1.078rem + 8.177vw, 8.438rem);
+    }
+
+    .first-info h5 {
+        font-size: clamp(0.2rem, -0.023rem + 0.947vw, 0.83rem);
+    }
+
+    .phone {
+        gap: clamp(0.2rem, -0.061rem + 1.11vw, 0.938rem);
+    }
+
+    .phone-icon {
+        width: clamp(0.4rem, 0.144rem + 1.09vw, 1.125rem);
+    }
+
+    .gmail {
+        align-items: flex-start;
+        gap: clamp(0.2rem, -0.061rem + 1.11vw, 0.938rem);
+    }
+
+    .gmail-icon {
+        width: clamp(0.4rem, 0.1rem + 1.278vw, 1.25rem);
+    }
+
+    .second-info {
+        position: relative;
+        top: clamp(1rem, 0.329rem + 2.857vw, 2.9rem);
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .second-info>h5 {
+        margin-top: clamp(0.3rem, 0.075rem + 0.959vw, 0.938rem);
+        font-size: clamp(0.2rem, -0.023rem + 0.947vw, 0.83rem);
+    }
+
+    .third-info {
+        position: relative;
+        top: clamp(0.65rem, 0.239rem + 1.749vw, 1.813rem);
+        padding-left: 0;
+    }
+
+    .third-info>h5 {
+        margin-top: clamp(0.3rem, 0.075rem + 0.959vw, 0.938rem);
+        font-size: clamp(0.2rem, -0.023rem + 0.947vw, 0.83rem);
+    }
+
+    .social-logos {
+        width: 10%;
+        gap: clamp(0.2rem, 0.05rem + 0.639vw, 0.625rem);
+        position: relative;
+        top: clamp(0.3rem, 0.185rem + 0.489vw, 0.625rem);
+        margin: 0;
+    }
+}
