@@ -1,4 +1,4 @@
-Live Site URL :
+Live Site URL :[Click Here](https://kimodev1990.github.io/fylo-landing-page/)
 
 Thanks for checking out this front-end coding challenge.
 
