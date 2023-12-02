@@ -1,9 +1,8 @@
-# Frontend Mentor - Fylo landing page with two column layout
-
-![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
-
-## Welcome! 👋
+Live Site URL :
 
 Thanks for checking out this front-end coding challenge.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+This is a solution to the [Fylo landing page with two column layout challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)
+# Frontend Mentor - Fylo landing page with two column layout
+
+![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
